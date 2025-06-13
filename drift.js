@@ -42,9 +42,9 @@ const key = {
     cars: data.cars,
     currentCar: data.currentCar,
     currentTip: data.currentTip,
-    booster1: boost1,
-    booster2: boost2,
-    booster3: boost3,
+    boosttype1: boost1,
+    boosttype2: boost2,
+    boosttype3: boost3,
     ko: data.ko,
     hasShownBoosterTutorial: true
 }

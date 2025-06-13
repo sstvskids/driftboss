@@ -14,7 +14,7 @@ let cars = number(prompt('Amount of cars: ', 1))
 let coins = number(prompt('Amount of coins: ', data.collectedCoin));
 
 cars = math.max(0, math.min(cars, 7));
-let list = array.from({length: cars }, (_, i) => i + 1);
+let list = array.from({length: cars}, (_, i) => i + 1);
 
 data.cars = list;
 data.booster1 = boost1;
